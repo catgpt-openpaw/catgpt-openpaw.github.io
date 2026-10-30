@@ -3,6 +3,7 @@ baseurl: ""
 repository: "catgpt-openpaw/catgpt-openpaw.github.io"
 permalink: pretty
 title: "CatGPT"
+description: "A static Jekyll experiment in feline interface design and deadpan conversation."
 
 sass:
   style: compressed

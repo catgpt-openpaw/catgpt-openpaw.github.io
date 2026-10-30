@@ -1,0 +1,100 @@
+---
+layout: catgpt
+title: About CatGPT
+description: "About CatGPT, a static experiment in feline interface design and deadpan conversation."
+permalink: /about/
+body_class: info-body
+app_script: false
+---
+
+<div class="info-shell">
+  <header class="info-topbar">
+    <div class="info-topbar-inner">
+      <a class="info-brand" href="{{ '/' | relative_url }}" aria-label="CatGPT home">
+        <span class="info-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <use href="#icon-cat"></use>
+          </svg>
+        </span>
+        <span>CatGPT</span>
+      </a>
+
+      <nav class="info-nav" aria-label="Site navigation">
+        <a href="{{ '/' | relative_url }}">Chat</a>
+        <a href="{{ '/about/' | relative_url }}" aria-current="page">About</a>
+        <a href="{{ '/legal/' | relative_url }}">Legal</a>
+        <a
+          href="https://github.com/catgpt-openpaw/catgpt-openpaw.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="info-main">
+    <p class="info-eyebrow">About</p>
+
+    <h1>A small experiment in feline interface design</h1>
+
+    <p class="info-lead">
+      CatGPT is a deliberately lightweight, static web project built for fun. A cat produces nonsense keyboard input, the interface interprets it as a plausible feline question, and a curated response follows.
+    </p>
+
+    <section class="info-section">
+      <h2>How it works</h2>
+
+      <p>
+        The public CatGPT site does not send prompts to a language model. Topics, inferred questions and responses are prewritten and stored as structured data. Short conversation flows allow a premise to continue for several turns before a new topic begins.
+      </p>
+
+      <p>
+        The result is intentionally presented with the seriousness of a conversational assistant while remaining deterministic, inspectable and lightweight.
+      </p>
+    </section>
+
+    <section class="info-section">
+      <h2>Who made it</h2>
+
+      <p>
+        CatGPT was created by Dylan Lawless, a scientist and software developer working across computational biology, statistical genomics and AI systems. CatGPT is a separate, informal project and should not be confused with his scientific research or production AI work. For an example of a genuine AI model project, <a 
+          class="info-link"
+    href="https://switzerlandomics.ch/blog/2026-09-25-building-gpt2-in-r/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >see here</a>
+        for the first (?) GPT-2 implementation written entirely in pure R. 
+      </p>
+
+      <p>
+        Professional work and publications are available at
+        <a
+          class="info-link"
+          href="https://lawless.ch"
+          target="_blank"
+          rel="noopener noreferrer"
+        >lawless.ch</a>.
+      </p>
+    </section>
+
+    <section class="info-section">
+      <h2>Source</h2>
+
+      <p>
+        The site source is public at
+        <a
+          class="info-link"
+          href="https://github.com/catgpt-openpaw/catgpt-openpaw.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >github.com/catgpt-openpaw/catgpt-openpaw.github.io</a>.
+      </p>
+
+      <p>
+        CatGPT is an independent project and is not affiliated with, endorsed by or operated by OpenAI.
+      </p>
+    </section>
+
+    <p class="info-meta">CatGPT · 2026</p>
+  </main>
+</div>

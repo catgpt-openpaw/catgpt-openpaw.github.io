@@ -162,6 +162,29 @@ button {
   padding-top: 8px;
 }
 
+.sidebar-meta-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 4px 5px 7px;
+}
+
+.sidebar-meta-nav a {
+  padding: 4px 5px;
+  border-radius: 6px;
+  color: #8f8f8f;
+  font-size: 11.5px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.sidebar-meta-nav a:hover,
+.sidebar-meta-nav a:focus-visible {
+  background: #212121;
+  color: #d6d6d6;
+  outline: 0;
+}
+
 .account-button {
   display: flex;
   align-items: center;
@@ -621,6 +644,177 @@ button {
   display: none;
 }
 
+.info-body {
+  height: auto;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-y: auto;
+}
+
+.info-shell {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #000000;
+}
+
+.info-topbar {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  border-bottom: 1px solid #242424;
+  background: rgba(0, 0, 0, 0.94);
+  backdrop-filter: blur(12px);
+}
+
+.info-topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: min(100%, 960px);
+  min-height: 58px;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
+
+.info-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #ececec;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.info-brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  border-radius: 9px;
+  background: #ececec;
+  color: #111111;
+}
+
+.info-brand-mark svg {
+  width: 19px;
+  height: 19px;
+}
+
+.info-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.info-nav a {
+  padding: 6px 8px;
+  border-radius: 7px;
+  color: #9b9b9b;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.info-nav a:hover,
+.info-nav a:focus-visible,
+.info-nav a[aria-current="page"] {
+  background: #171717;
+  color: #ececec;
+  outline: 0;
+}
+
+.info-main {
+  width: min(100%, 760px);
+  margin: 0 auto;
+  padding: 72px 24px 96px;
+}
+
+.info-eyebrow {
+  margin: 0 0 10px;
+  color: #8f8f8f;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.info-main h1 {
+  margin: 0;
+  color: #f2f2f2;
+  font-size: clamp(30px, 5vw, 42px);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+.info-lead {
+  margin: 20px 0 0;
+  color: #cfcfcf;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.info-section {
+  margin-top: 44px;
+  padding-top: 28px;
+  border-top: 1px solid #242424;
+}
+
+.info-section h2 {
+  margin: 0 0 12px;
+  color: #ececec;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.info-section p {
+  margin: 0 0 14px;
+  color: #b8b8b8;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.info-section p:last-child {
+  margin-bottom: 0;
+}
+
+.info-section ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  color: #b8b8b8;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.info-section li + li {
+  margin-top: 7px;
+}
+
+.info-link {
+  color: #ececec;
+  text-decoration-color: #555555;
+  text-underline-offset: 3px;
+}
+
+.info-link:hover,
+.info-link:focus-visible {
+  text-decoration-color: #ececec;
+  outline: 0;
+}
+
+.info-meta {
+  margin-top: 44px;
+  color: #777777;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 @media (max-width: 860px) {
   .app {
     display: block;
@@ -677,6 +871,41 @@ button {
 }
 
 @media (max-width: 640px) {
+
+	.info-topbar-inner {
+	  gap: 12px;
+	  padding-top: max(8px, env(safe-area-inset-top));
+	  padding-right: max(14px, env(safe-area-inset-right));
+	  padding-bottom: 8px;
+	  padding-left: max(14px, env(safe-area-inset-left));
+	}
+	
+	.info-brand {
+	  font-size: 15px;
+	}
+	
+	.info-nav {
+	  gap: 1px;
+	}
+	
+	.info-nav a {
+	  padding: 6px;
+	  font-size: 11px;
+	}
+	
+	.info-main {
+	  padding: 48px 18px 72px;
+	}
+	
+	.info-lead {
+	  font-size: 17px;
+	}
+	
+	.info-section {
+	  margin-top: 36px;
+	  padding-top: 24px;
+	}
+	
   .topbar {
     min-height: 54px;
     padding-top: max(6px, env(safe-area-inset-top));
