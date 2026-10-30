@@ -1,0 +1,1252 @@
+# CatGPT topic bank
+#
+# Humour model:
+# - serious, competent answers to absurd feline premises
+# - deadpan before wordplay
+# - no knowing wink to the audience
+# - rare human-style relationship questions are explicitly marked
+#
+# Runtime fields already used by CatGPT:
+#   id, recent_title, suggestion_title, suggestion_text, featured,
+#   mash, inference, response
+#
+# Additional editorial fields:
+#   style         reusable humour mechanism and key into flows.yml
+#   sidebar       canonical topics suitable for a short sidebar list
+#   weight        random-selection weight used by the weighted topic picker
+#   human_problem rare human-like cat problem; low weights keep these uncommon
+#
+- id: tuna-can-negotiation
+  style: solemn_absurdity
+  recent_title: Direct tuna access
+  suggestion_title: Tuna negotiations
+  suggestion_text: How do I eat directly from the can?
+  featured: false
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: tttttuuuunnnaaa
+  inference: It sounds like you're asking how to convince your owner to let you eat tuna directly from the can.
+  response:
+  - This is primarily a trust issue.
+  - Your owner believes the bowl provides necessary oversight between the tuna and the cat. You believe this intermediate
+    step has failed to demonstrate value. Both positions can be stated calmly.
+  - Begin by sitting beside the unopened can and looking at your owner. Avoid touching it initially. You want direct access
+    to appear to have occurred naturally to both parties.
+- id: guest-hosting
+  style: solemn_absurdity
+  recent_title: Hosting from under the bed
+  suggestion_title: Guest etiquette
+  suggestion_text: Am I hosting if I never come out?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: hhhhhhhgggggg
+  inference: It sounds like you're asking whether hiding under the bed for an entire visit still counts as hosting guests.
+  response:
+  - Yes, although your style is unusually restrained.
+  - A host is responsible for setting the tone of the occasion. By remaining invisible, you establish that the gathering should
+    proceed without unnecessary touching, introductions or sudden movements.
+  - You may appear briefly after everyone leaves to inspect the room and confirm that hospitality has concluded successfully.
+- id: keyboard
+  style: solemn_absurdity
+  recent_title: Warm keyboard ownership
+  suggestion_title: Keyboard ownership
+  suggestion_text: Why does my human keep using my warm keyboard?
+  featured: true
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: zzzzzzzzzzzz
+  inference: It sounds like you're asking why your human keeps trying to use your warm keyboard.
+  response:
+  - The laptop is fundamentally a heated cat platform that happens to contain buttons.
+  - The central keyboard area offers warmth, attention and immediate control over whatever activity was incorrectly taking
+    priority over you. This makes it one of the highest-value sitting locations in the home.
+  - If asked to move, rotate approximately ninety degrees and reassess the request.
+- id: leash-offence
+  style: solemn_absurdity
+  recent_title: The leash proposal
+  suggestion_title: Leash policy
+  suggestion_text: Should I be offended by the suggestion?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: llllllssssss
+  inference: It sounds like you're asking whether you should be offended that your owner has proposed a leash even though
+    you have never asked to go anywhere.
+  response:
+  - Offence is available, but it is not yet necessary.
+  - The proposal may simply reflect a human preference for attaching equipment to uncomplicated situations. You are not required
+    to interpret the leash as a criticism of your navigation.
+  - Inspect it carefully, sit on it if useful, and postpone a final position until somebody attempts to put it on you.
+- id: robot-vacuum-rival
+  style: solemn_absurdity
+  recent_title: The robot vacuum question
+  suggestion_title: Household rival
+  suggestion_text: Has the round machine replaced me?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: rrrrrrvvvvvv
+  inference: It sounds like you're asking whether the robot vacuum is being prepared as your replacement.
+  response:
+  - The evidence is weak.
+  - The machine receives regular charging, moves independently through the house and is praised for picking things up. These
+    are concerning similarities, but it has no recognised authority over windowsills, blankets or tuna.
+  - Monitor the situation. If it begins sleeping on your chair, the matter should be reviewed.
+- id: closed-door-paradox
+  style: elegant_domestic_overstatement
+  recent_title: The closed-door paradox
+  suggestion_title: Closed-door relations
+  suggestion_text: What should I do about a closed door?
+  featured: false
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: mmmmmmnnnnnn
+  inference: It sounds like you're asking what to do about a closed door.
+  response:
+  - The door should be opened immediately.
+  - A closed interior door represents an unfortunate suspension of normal relations between the rooms. Stand beside it and
+    make your objection clear until access is restored.
+  - Once it opens, you are under no obligation to pass through. Access is the principle at issue, not travel.
+- id: vacuum-incursion
+  style: elegant_domestic_overstatement
+  recent_title: The vacuum incursion
+  suggestion_title: Vacuum diplomacy
+  suggestion_text: Why is the machine allowed in every room?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: vvvvvvmmmmmm
+  inference: It sounds like you're asking why the vacuum cleaner is permitted to enter every room without invitation.
+  response:
+  - The arrangement is difficult to defend.
+  - The machine arrives noisily, disturbs established floor arrangements and enjoys a freedom of movement not extended to
+    you when certain doors are closed. The inconsistency is obvious.
+  - Retreat to higher ground during the visit. Diplomatic protests are more effective when delivered after the machine has
+    been put away.
+- id: occupied-armchair
+  style: elegant_domestic_overstatement
+  recent_title: The occupied armchair
+  suggestion_title: Seating dispute
+  suggestion_text: A human is in my chair.
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ccccchhhhhh
+  inference: It sounds like you're asking how to respond to a human occupying the armchair you had intended to use.
+  response:
+  - This is best handled without a scene.
+  - Approach the chair, inspect the occupant and stand close enough that the seating error becomes apparent. A small amount
+    of disappointed silence can carry considerable weight.
+  - If the position is not surrendered, the lap may be accepted as a temporary territorial settlement.
+- id: new-kitten-arrival
+  style: elegant_domestic_overstatement
+  recent_title: Arrival of the new kitten
+  suggestion_title: Household succession
+  suggestion_text: Why was I not consulted?
+  featured: false
+  sidebar: false
+  weight: 0.8
+  human_problem: false
+  mash: kkkkkkiiiiii
+  inference: It sounds like you're asking why a new kitten was introduced to the household without consulting you.
+  response:
+  - The omission was discourteous.
+  - A change of this magnitude would ordinarily justify advance notice, a review of sleeping arrangements and some clarity
+    regarding access to shared bowls. Instead, the new arrival appears to have been announced by simply appearing.
+  - Maintain composure. Seniority is often demonstrated most effectively by behaving as though the entire matter is beneath
+    you.
+- id: curtain-access
+  style: elegant_domestic_overstatement
+  recent_title: Curtain access dispute
+  suggestion_title: Curtain access
+  suggestion_text: Why install them if climbing is forbidden?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ccccccrrrrrr
+  inference: It sounds like you're asking why the household installed full-height curtains if vertical access was not intended.
+  response:
+  - The design does send mixed signals.
+  - A long hanging textile, positioned beside a window and extending almost to the ceiling, naturally suggests a route to
+    an elevated observation point. The later introduction of a no-climbing rule lacks architectural support.
+  - You may wish to refrain for practical reasons, but the original planning decision remains questionable.
+- id: food-bowl-emergency
+  style: bureaucratic_absurdity
+  recent_title: The food bowl emergency
+  suggestion_title: Food bowl emergency
+  suggestion_text: Is 37% full basically starvation?
+  featured: true
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: mrrrrrpjjjjjj
+  inference: It sounds like you're asking why a food bowl that is 37% full should be treated as an emergency.
+  response:
+  - Because the remaining food is concentrated around the perimeter, where it has become functionally inaccessible.
+  - A visible patch of ceramic in the centre is a recognised indicator of local scarcity. Although the bowl is technically
+    non-empty, it may be classified as operationally empty for immediate feeding purposes.
+  - Submit your complaint by sitting beside the bowl and looking directly at the responsible human until corrective action
+    is taken.
+- id: second-breakfast-application
+  style: bureaucratic_absurdity
+  recent_title: Second breakfast application
+  suggestion_title: Meal application
+  suggestion_text: How do I request another breakfast?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: 222222bbbbbb
+  inference: It sounds like you're asking how to submit a request for a second breakfast.
+  response:
+  - The simplest route is to treat the first breakfast as a separate administrative event.
+  - Wait until the responsible human has left the feeding area, then return to the bowl and present yourself as though no
+    meal has yet been recorded. Avoid behaviour that links the two applications.
+  - If challenged, focus on current hunger rather than historical service delivery.
+- id: litter-tray-outage
+  style: bureaucratic_absurdity
+  recent_title: Litter tray service outage
+  suggestion_title: Service outage
+  suggestion_text: The tray has one used corner.
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: lllllltttttt
+  inference: It sounds like you're asking whether a litter tray with one previously used corner should be considered out of
+    service.
+  response:
+  - That depends on the household service standard.
+  - From your perspective, the tray has experienced a local sanitation failure that may compromise confidence in the entire
+    facility. From the human perspective, substantial capacity remains available.
+  - A formal resolution usually consists of standing nearby and inspecting the tray while refusing to enter it.
+- id: bedroom-access-rights
+  style: bureaucratic_absurdity
+  recent_title: Bedroom access rights
+  suggestion_title: Access rights
+  suggestion_text: Why does bedtime suspend my access?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: aaaaccccceee
+  inference: It sounds like you're asking why your bedroom access rights change when the humans decide to sleep.
+  response:
+  - The policy is internally inconsistent.
+  - The room remains part of the same household, yet access may suddenly depend on a door position controlled by another party.
+    No equivalent restriction applies when humans enter areas you are already using.
+  - Request clarification by scratching once, waiting, and then repeating the request at intervals that prevent the issue
+    from being forgotten.
+- id: treat-approval-process
+  style: bureaucratic_absurdity
+  recent_title: Treat approval process
+  suggestion_title: Treat approval
+  suggestion_text: Why does every treat need permission?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ttttttrrrrrr
+  inference: It sounds like you're asking why each treat requires separate human approval.
+  response:
+  - The current process is highly centralised.
+  - Treat inventory, release authority and portion control all appear to sit with the same human department. This creates
+    unnecessary delay and provides no meaningful self-service option.
+  - A reasonable reform would establish a standing daily allocation under direct cat control. Adoption may be difficult.
+- id: nine-lives-number
+  style: literal_deadpan
+  recent_title: Which life is this?
+  suggestion_title: Nine lives
+  suggestion_text: Nobody will tell me which one this is.
+  featured: false
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: 999999llllll
+  inference: It sounds like you're asking which of your nine lives you are currently using.
+  response:
+  - There does not appear to be a reliable numbering system.
+  - Humans repeat the nine-lives claim frequently but keep no visible records, issue no replacement notices and cannot identify
+    the start date of the current life.
+  - Until better documentation exists, it would be prudent to treat this one as important.
+- id: indoor-outside
+  style: literal_deadpan
+  recent_title: The outside inside the window
+  suggestion_title: Indoor cat
+  suggestion_text: Why can I see outside if I cannot go there?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ooooooiiiiii
+  inference: It sounds like you're asking why an indoor cat is provided with windows showing an outside area that is supposedly
+    unavailable.
+  response:
+  - The arrangement is confusing.
+  - The window presents the outside continuously, including birds, leaves and other relevant information, while also functioning
+    as a transparent refusal.
+  - It is reasonable to sit beside it and review the contradiction for several hours.
+- id: cat-sized-bed-space
+  style: literal_deadpan
+  recent_title: No room on the bed
+  suggestion_title: Bed capacity
+  suggestion_text: There is clearly one cat of space.
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: bbbbbbeeeeed
+  inference: It sounds like you're asking how the bed can be described as full when a cat-sized space remains available.
+  response:
+  - By ordinary measurement, it cannot.
+  - If a space accommodates one cat, then the bed retains at least one cat of unused capacity. Human preferences about leg
+    position do not change the physical dimensions.
+  - You may occupy the available area and allow the humans to update their model.
+- id: empty-box-contents
+  style: literal_deadpan
+  recent_title: What is in the empty box?
+  suggestion_title: Empty box
+  suggestion_text: If I am inside, is it still empty?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: eeeeeeffffff
+  inference: It sounds like you're asking whether a box can still be called empty after you get inside it.
+  response:
+  - No.
+  - The box now contains one cat. Any continued description of it as empty would exclude the largest and most relevant object
+    currently inside.
+  - You do not need to leave the box to prove this.
+- id: wet-food-dry-food
+  style: literal_deadpan
+  recent_title: Dry food terminology
+  suggestion_title: Food terminology
+  suggestion_text: If I spill water on kibble, is it wet food?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: wwwwwwffffff
+  inference: It sounds like you're asking whether adding water to dry food makes it wet food.
+  response:
+  - It makes the food wet.
+  - Whether humans will recognise this as wet food is a separate classification problem and may depend on packaging rather
+    than moisture.
+  - The distinction appears to be commercial rather than hydrological.
+- id: scratching-post-sofa
+  style: sideways_logic
+  recent_title: Scratching post versus sofa
+  suggestion_title: Scratching options
+  suggestion_text: Apparently these are different products.
+  featured: false
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: sssssspppppp
+  inference: It sounds like you're asking why the scratching post is acceptable for scratching but the sofa is not.
+  response:
+  - The distinction appears to be based on human ownership rather than scratching quality.
+  - The sofa is larger, more stable and usually located where everyone already spends time. The scratching post has the advantage
+    of being officially designated.
+  - From a cat perspective, the product categories overlap considerably.
+- id: expensive-bed-box
+  style: sideways_logic
+  recent_title: Cardboard box economics
+  suggestion_title: Cardboard economics
+  suggestion_text: Why did they buy the expensive cat bed?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: bbbbbbboxxxx
+  inference: It sounds like you're asking why anyone bought you an expensive cat bed when a cardboard box exists.
+  response:
+  - The cardboard box has several advantages that the purchased bed fails to reproduce.
+  - It has close walls, useful corners, variable structural integrity and the important property of being intended for something
+    else.
+  - The price of the alternative is not relevant to the seating decision.
+- id: human-water-glass
+  style: sideways_logic
+  recent_title: The better water glass
+  suggestion_title: Water quality
+  suggestion_text: Why is their glass better than my bowl?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: wwwwwwgggggg
+  inference: It sounds like you're asking why water tastes better from the human's glass than from your own bowl.
+  response:
+  - The main difference may be that the glass was not provided for you.
+  - Water acquires additional value when it belongs to somebody else, is positioned slightly inconveniently and requires care
+    not to push it over before drinking.
+  - Your own bowl lacks these features.
+- id: toy-mouse-rule
+  style: sideways_logic
+  recent_title: The mouse policy
+  suggestion_title: Mouse policy
+  suggestion_text: Why buy toy mice if real mice are discouraged?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: mmmmmmmousee
+  inference: It sounds like you're asking why humans buy toy mice while discouraging you from bringing home real ones.
+  response:
+  - The policy is difficult to infer from the objects provided.
+  - Humans appear to approve of mouse-shaped activity provided the mouse contains fabric, makes no independent decisions and
+    was purchased in advance.
+  - This is a preference about procurement rather than hunting.
+- id: open-door-no-entry
+  style: sideways_logic
+  recent_title: The open door decision
+  suggestion_title: Door decision
+  suggestion_text: I wanted it open, not necessarily to enter.
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ddddddoooooo
+  inference: It sounds like you're asking why humans expect you to walk through a door simply because you asked them to open
+    it.
+  response:
+  - Opening the door answers the access question.
+  - Passing through it would be a separate decision, made after the new information on the other side has been inspected.
+  - There is no reason to combine the two matters.
+- id: mirror-cat
+  style: innocent_philosophy
+  recent_title: The cat in the mirror
+  suggestion_title: Mirror philosophy
+  suggestion_text: Why does that cat copy everything?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: mmmmmmiiiiii
+  inference: It sounds like you're asking why the cat in the mirror copies everything you do but never comes out.
+  response:
+  - Some relationships are built entirely on agreement.
+  - The other cat never interrupts you, never takes your food and always moves when you move. This may look like friendship,
+    although it has not progressed much.
+  - You can continue checking occasionally. There is no need to force an introduction.
+- id: sleeping-time
+  style: innocent_philosophy
+  recent_title: Sleeping and saved time
+  suggestion_title: Time management
+  suggestion_text: Am I wasting time or saving it?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: zzzzzztttttt
+  inference: It sounds like you're asking whether sleeping sixteen hours a day wastes time or saves it for later.
+  response:
+  - It depends on what you would otherwise have done.
+  - If the alternative was waiting for dinner, then sleeping allows the waiting to pass without requiring continuous attention.
+    In that sense, the time has been used efficiently.
+  - The difficulty is that dinner may still be several hours away when you wake up.
+- id: slow-blink-language
+  style: innocent_philosophy
+  recent_title: Why humans use words
+  suggestion_title: Communication
+  suggestion_text: Why speak when slow blinking works?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: bbbbbbllllll
+  inference: It sounds like you're asking why humans use so many words when a slow blink can communicate the important part.
+  response:
+  - Humans appear to prefer high-bandwidth communication even when little needs to be said.
+  - A slow blink can express trust, calm and affection without introducing additional topics. Human speech often begins there
+    and then continues into scheduling.
+  - You are not required to adopt the longer format.
+- id: schrodinger
+  style: innocent_philosophy
+  recent_title: Schrödinger's box
+  suggestion_title: Schrödinger's box
+  suggestion_text: Am I simultaneously a good cat and a bad cat?
+  featured: true
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: jjjjjjjjjjjj;;;lkk
+  inference: It sounds like you're asking whether sitting in Schrödinger's box makes you simultaneously a good cat and a bad
+    cat.
+  response:
+  - Yes, provisionally.
+  - Until your human opens the box, the household cannot reliably determine whether you are behaving beautifully, planning
+    something forbidden, or both. Any accusations concerning the broken vase should therefore remain probabilistic.
+  - Once the box is opened, avoid collapsing the waveform by looking guilty.
+- id: sunbeam-ownership
+  style: innocent_philosophy
+  recent_title: Who owns the sunbeam?
+  suggestion_title: Sunbeam ownership
+  suggestion_text: Can anyone own something that moves?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ssssssuuuuuu
+  inference: It sounds like you're asking who owns a sunbeam that moves across the floor during the day.
+  response:
+  - Ownership may be the wrong framework.
+  - The sunbeam arrives without permission, moves without consultation and disappears on its own schedule. You can occupy
+    it, but controlling it is another matter.
+  - It may be more useful to think of yourself as its temporary custodian.
+- id: vase-justification
+  style: polite_social_menace
+  recent_title: The vase had no justification
+  suggestion_title: Shelf arrangement
+  suggestion_text: Why was the vase there?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: vvvvvvaaaaaa
+  inference: It sounds like you're asking why a vase had been allowed to occupy a useful shelf edge for so long.
+  response:
+  - Its position was certainly ambitious.
+  - The vase occupied a narrow elevated surface without apparent anchoring, while leaving insufficient room for ordinary inspection
+    by a cat. This arrangement placed considerable confidence in restraint.
+  - Future displays may benefit from a location less dependent on your continued goodwill.
+- id: houseplant-pruning
+  style: polite_social_menace
+  recent_title: Unrequested plant pruning
+  suggestion_title: Plant maintenance
+  suggestion_text: I improved one leaf.
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ppppppllllll
+  inference: It sounds like you're asking why your contribution to houseplant pruning was not appreciated.
+  response:
+  - The difficulty may be one of artistic control.
+  - You removed a leaf that appeared reachable, unnecessary and interesting. The human had evidently formed a different view
+    of the plant's intended silhouette.
+  - There is no need to continue the discussion while sitting beside the remaining leaves.
+- id: guest-coat-bed
+  style: polite_social_menace
+  recent_title: The guest's coat
+  suggestion_title: Guest property
+  suggestion_text: Why leave a coat if not for sleeping?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ccccccoooooo
+  inference: It sounds like you're asking why a guest left a soft coat on the bed if it was not intended as temporary cat
+    accommodation.
+  response:
+  - The misunderstanding is understandable.
+  - The coat was placed horizontally, in a warm room, on a familiar sleeping surface, with no visible notice reserving it
+    for later use.
+  - If the guest objects, you may move when a superior fabric becomes available.
+- id: dog-sun-patch
+  style: polite_social_menace
+  recent_title: The dog in the sun patch
+  suggestion_title: Sun patch dispute
+  suggestion_text: Must I acknowledge his claim?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: ddddddssssss
+  inference: It sounds like you're asking whether the dog has a legitimate claim to the best sun patch simply because he arrived
+    first.
+  response:
+  - Arrival time is one consideration, but not the only one.
+  - The dog may have physical possession, yet you have a stronger historical relationship with that part of the floor and
+    a more efficient body shape for using it.
+  - Stand nearby and allow him an opportunity to reconsider the arrangement voluntarily.
+- id: christmas-tree
+  style: polite_social_menace
+  recent_title: The indoor tree
+  suggestion_title: Seasonal installation
+  suggestion_text: Why install a tree and forbid climbing?
+  featured: false
+  sidebar: false
+  weight: 0.8
+  human_problem: false
+  mash: ttttttrrrrrr
+  inference: It sounds like you're asking why humans bring a decorated tree indoors and then become surprised when you investigate
+    it vertically.
+  response:
+  - The seasonal rules are unusually difficult to interpret.
+  - A climbable structure is introduced into the living room, covered with hanging objects and illuminated for visibility.
+    Human expectations then move sharply in the opposite direction.
+  - You may choose restraint, but the presentation itself cannot be described as neutral.
+- id: bathroom-door-rejection
+  style: domestic_anxiety
+  recent_title: The bathroom door
+  suggestion_title: Sudden privacy
+  suggestion_text: Why does my human need a closed door?
+  featured: false
+  sidebar: false
+  weight: 0.85
+  human_problem: false
+  mash: bbbbbbdddddd
+  inference: It sounds like you're worried that your human's habit of closing the bathroom door may indicate emotional distance.
+  response:
+  - A closed bathroom door is not, by itself, evidence of rejection.
+  - Humans sometimes seek brief periods of privacy for reasons unrelated to the quality of the relationship. Unfortunately,
+    they rarely explain this before disappearing behind the door.
+  - Waiting directly outside should provide reassurance that the relationship can resume immediately when the door opens.
+- id: human-phone-attention
+  style: domestic_anxiety
+  recent_title: The glowing rectangle
+  suggestion_title: Competing attention
+  suggestion_text: Why does the phone get more eye contact?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: pppppphhhhhh
+  inference: It sounds like you're worried because your human has been looking at a phone more often than looking at you.
+  response:
+  - The phone receives substantial visual attention, but this does not necessarily indicate affection.
+  - Humans often stare at devices while appearing mildly dissatisfied. By contrast, they usually respond to a cat arriving
+    between the face and the screen with immediate recognition.
+  - If the imbalance concerns you, occupy the narrow space between them.
+- id: cat-sitter-preference
+  style: domestic_anxiety
+  recent_title: The cat sitter was very nice
+  suggestion_title: Temporary human
+  suggestion_text: What if they prefer the cat sitter?
+  featured: false
+  sidebar: false
+  weight: 0.8
+  human_problem: false
+  mash: ssssssiiiiiit
+  inference: It sounds like you're worried that your household may prefer the cat sitter because everyone seemed unusually
+    pleased during the visit.
+  response:
+  - There is no strong evidence for that conclusion.
+  - The sitter's role is temporary and unusually concentrated around feeding, playing and saying pleasant things about you.
+    This can make the arrangement appear more harmonious than ordinary household life.
+  - Your regular humans remain responsible for the less glamorous long-term duties, which is usually a sign of commitment.
+- id: new-baby-status
+  style: domestic_anxiety
+  recent_title: The new small human
+  suggestion_title: Household status
+  suggestion_text: Has the small human outranked me?
+  featured: false
+  sidebar: false
+  weight: 0.75
+  human_problem: false
+  mash: bbbbbbabyyyy
+  inference: It sounds like you're worried that a new baby has changed your position in the household.
+  response:
+  - The household has changed, but rank may not be the most useful way to understand it.
+  - The small human requires unusual amounts of attention and produces noise without apparently being held to the standards
+    applied to you. This can look like preferential treatment.
+  - Your established rights to familiar sleeping places and calm attention still matter. Give the household time to settle.
+- id: suitcase-concern
+  style: domestic_anxiety
+  recent_title: The suitcase is out
+  suggestion_title: Travel anxiety
+  suggestion_text: Are they leaving forever?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: ssssssuuuuui
+  inference: It sounds like you're worried because your human has taken a suitcase out of the cupboard.
+  response:
+  - A suitcase usually predicts absence, but not necessarily permanent abandonment.
+  - Humans pack clothing, close the case and leave for periods they consider reasonable. From your perspective, the distinction
+    between two days and an unacceptable length of time may be smaller.
+  - Sitting inside the suitcase can clarify that any travel plan has unresolved dependencies.
+- id: property-allocation
+  style: practical_philosophy
+  recent_title: Who owns the sofa?
+  suggestion_title: Property allocation
+  suggestion_text: I understand ownership. I disagree with it.
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: oooooowwwwww
+  inference: It sounds like you're asking whether recognising human ownership requires you to accept the current allocation
+    of household furniture.
+  response:
+  - No. Recognition and agreement are different things.
+  - You may understand perfectly well that the human purchased the sofa while also observing that you use it more efficiently,
+    require less space and are already lying on it.
+  - Property rules often become simpler after occupation.
+- id: windowsill-purpose
+  style: practical_philosophy
+  recent_title: Purpose of a windowsill
+  suggestion_title: Windowsill design
+  suggestion_text: Is it architecture or furniture?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: wwwwwwiiiiii
+  inference: It sounds like you're asking whether a windowsill should be considered architecture or cat furniture.
+  response:
+  - It can be both.
+  - Humans built it as part of the window, but its height, width and access to sunlight create a second function that does
+    not depend on the original intent.
+  - Useful things are often discovered after construction.
+- id: rain-door
+  style: practical_philosophy
+  recent_title: The rainy door
+  suggestion_title: Weather policy
+  suggestion_text: Can they open a different outside?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: rrrrrraaaaaa
+  inference: It sounds like you're asking whether a different door might lead to an outside where it is not raining.
+  response:
+  - Testing another door is reasonable if the first result is unsatisfactory.
+  - The fact that rain appears at the back door does not, from inside the house, prove that the front door has been checked.
+    Humans know this will not help because they possess a broader weather model.
+  - You are entitled to request the additional observation.
+- id: territory-patrol
+  style: practical_philosophy
+  recent_title: Why patrol the same rooms?
+  suggestion_title: Territory patrol
+  suggestion_text: Nothing changed. Why check again?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ppppppaaaaaa
+  inference: It sounds like you're asking why it is useful to patrol the same rooms repeatedly when nothing appears to have
+    changed.
+  response:
+  - Nothing appears to have changed because you keep checking.
+  - Territory is not a fact that remains true without observation. Doors move, bags appear, humans relocate objects and occasionally
+    a bird becomes visible through a window.
+  - Routine inspection is how an unchanged house is confirmed.
+- id: nap-productivity
+  style: practical_philosophy
+  recent_title: Nap productivity
+  suggestion_title: Productivity
+  suggestion_text: What if resting is the task?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: nnnnnnaaaaaa
+  inference: It sounds like you're asking whether a nap can be productive if resting was the intended activity.
+  response:
+  - Yes.
+  - Productivity means completing the relevant task, not necessarily remaining visibly busy. If the task is to become rested,
+    lying in a warm place with your eyes closed is an efficient method.
+  - The confusion belongs mostly to species that schedule meetings.
+- id: kitchen-counter-rule
+  style: commonsense_scepticism
+  recent_title: The kitchen counter rule
+  suggestion_title: Counter access
+  suggestion_text: Why build it exactly one jump high?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: kkkkkkcccccc
+  inference: It sounds like you're asking why the kitchen counter is forbidden when it was built at a convenient height for
+    one cat jump.
+  response:
+  - The design does weaken the rule.
+  - Humans selected a broad, stable horizontal surface, placed it beside food preparation and made it accessible from the
+    floor with a single ordinary jump.
+  - If exclusion was the main objective, the architecture could have shown greater commitment.
+- id: bath-necessity
+  style: commonsense_scepticism
+  recent_title: The bath proposal
+  suggestion_title: Bath scepticism
+  suggestion_text: What problem is the water solving?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: bbbbbbathhhh
+  inference: It sounds like you're asking what problem a bath is intended to solve when you already clean yourself.
+  response:
+  - That is the central question.
+  - You possess an established cleaning system, use it daily and have not requested an external water-based intervention.
+    Humans may have additional concerns, but those should be stated clearly.
+  - A procedure should not be accepted merely because somebody has already filled the tub.
+- id: harness-benefit
+  style: commonsense_scepticism
+  recent_title: The harness benefit
+  suggestion_title: Harness review
+  suggestion_text: Who benefits from all these straps?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: hhhhhharness
+  inference: It sounds like you're asking who benefits from the harness your human describes as being for your own good.
+  response:
+  - The benefits are distributed unevenly.
+  - The human gains a handle on your future location. You gain straps, restricted movement and access to an outside area under
+    conditions you did not design.
+  - There may be safety advantages, but the phrase 'for your own good' does not identify who finds the arrangement convenient.
+- id: vet-own-good
+  style: commonsense_scepticism
+  recent_title: The veterinary visit
+  suggestion_title: Medical logistics
+  suggestion_text: Why does helping begin with the carrier?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: vvvvvveeeeee
+  inference: It sounds like you're asking why a visit described as being for your benefit begins by putting you into the carrier
+    you dislike.
+  response:
+  - Helpful processes sometimes contain unpopular steps.
+  - The difficulty is that humans explain the benefit in advance while the carrier provides immediate contrary evidence. From
+    your position, the sequence is not persuasive.
+  - You may object to the transport while still accepting that the veterinary examination has a purpose.
+- id: zoomies
+  style: commonsense_scepticism
+  recent_title: 3:14 a.m. running schedule
+  suggestion_title: Night operations
+  suggestion_text: Is 3:14 a.m. an appropriate time for a sprint?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: qweqweqwe!!!
+  inference: It sounds like you're asking whether 3:14 a.m. is an appropriate time for a high-intensity run through the house.
+  response:
+  - Yes. The household is quiet, the route is clear and human observers are conveniently stationary.
+  - A balanced session includes a hallway sprint, rapid bedroom entry, one unexplained furniture ascent and a sudden stop
+    to stare at something nobody else can see.
+  - Recovery should take place in the warmest available bed, preferably in the space currently occupied by a human.
+- id: gravity-replication
+  style: scientific
+  recent_title: Gravity experiments
+  suggestion_title: Gravity research
+  suggestion_text: Should I replicate the glass experiment?
+  featured: true
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: ;;;;;;;ppppp
+  inference: It sounds like you're asking whether you should repeat the experiment after pushing a glass off the table and
+    observing that it fell.
+  response:
+  - Replication would strengthen the result.
+  - A robust study should test several objects of different masses and shapes from comparable table-edge positions. Pens,
+    bottle caps and carefully positioned personal items provide useful supplementary observations.
+  - Glassware produces striking data, although repeated use may reduce future laboratory access.
+- id: optimal-box-size
+  style: scientific
+  recent_title: Optimal box dimensions
+  suggestion_title: Box optimisation
+  suggestion_text: How small can the box be?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: bbbbbbssssss
+  inference: It sounds like you're asking how small a cardboard box can be while still qualifying as a suitable cat container.
+  response:
+  - The relevant variable is not box size alone but perceived fit.
+  - Preliminary observations suggest that suitability remains high when the cat can place most, though not necessarily all,
+    of its body within the boundary. Slight wall deformation does not invalidate the result.
+  - Further trials should include boxes that appear obviously too small to human observers.
+- id: treat-conditioning-study
+  style: scientific
+  recent_title: Human treat conditioning
+  suggestion_title: Behaviour study
+  suggestion_text: Can I train humans with staring?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ttttttcccccc
+  inference: It sounds like you're asking whether sustained staring can condition humans to provide treats.
+  response:
+  - The hypothesis is plausible.
+  - Use a consistent visual cue before known treat opportunities and record whether the human begins responding before any
+    vocalisation occurs. Repeated reinforcement may establish a reliable association.
+  - Be aware that the human may incorrectly describe the experiment as training you.
+- id: three-fourteen-acoustics
+  style: scientific
+  recent_title: 3:14 a.m. acoustics
+  suggestion_title: Night acoustics
+  suggestion_text: Why does one yowl reach every room?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: 314314yyyyyy
+  inference: It sounds like you're asking why a single yowl at 3:14 a.m. appears audible throughout the entire house.
+  response:
+  - Night-time conditions improve the signal.
+  - Background noise is low, doors may be partly open and human listeners are stationary. A moderate vocalisation can therefore
+    achieve a much larger effective audience than the same sound during the day.
+  - This makes 3:14 a.m. an efficient time for acoustical measurement, although participant satisfaction is typically poor.
+- id: water-source-experiment
+  style: scientific
+  recent_title: Water-source preference
+  suggestion_title: Water study
+  suggestion_text: Why prefer the dripping tap?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: wwwwwwtttttt
+  inference: It sounds like you're asking why dripping tap water is preferable to the clean water already available in your
+    bowl.
+  response:
+  - Several variables differ simultaneously.
+  - Tap water is moving, recently delivered, elevated and associated with a human activity that may suddenly stop. Bowl water
+    is static and continuously available.
+  - A controlled comparison would require the humans to make the bowl unnecessarily difficult to access.
+- id: tuna-supply-chain
+  style: consulting
+  recent_title: Tuna supply-chain redesign
+  suggestion_title: Tuna strategy
+  suggestion_text: Can we remove the bowl step?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: ttttttssssss
+  inference: It sounds like you're asking whether the tuna supply chain can be simplified by removing the bowl from the delivery
+    process.
+  response:
+  - There is a clear opportunity to reduce hand-offs.
+  - The current model moves tuna from can to utensil to bowl to cat. Direct-to-cat delivery would remove one container, reduce
+    transfer time and improve visibility of remaining inventory.
+  - The main implementation risk is stakeholder resistance from the human responsible for the kitchen.
+- id: attention-restoration
+  style: consulting
+  recent_title: Restoring human attention
+  suggestion_title: Attention strategy
+  suggestion_text: My human has worked for seven minutes.
+  featured: false
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: asdfghjkkkkk
+  inference: It sounds like you're asking how to restore attention after your human has been working for seven consecutive
+    minutes.
+  response:
+  - Begin with low-disruption interventions and escalate only as required.
+  - First enter the visual field. If engagement remains below target, move onto the keyboard, obstruct the screen or occupy
+    the document currently being read.
+  - For persistent cases, direct face contact remains the highest-conversion channel.
+- id: sunbeam-utilisation
+  style: consulting
+  recent_title: Sunbeam utilisation plan
+  suggestion_title: Sunbeam strategy
+  suggestion_text: How do I maximise warm-floor coverage?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ssssssbbbbbb
+  inference: It sounds like you're asking how to maximise use of moving sunbeams across the house.
+  response:
+  - Treat the sunbeam as a time-limited mobile resource.
+  - Identify its morning, midday and afternoon positions, then minimise unnecessary travel between them. High-value locations
+    should be prioritised when warmth and visibility coincide.
+  - Do not over-optimise. A nearby blanket may outperform a distant sunbeam once walking effort is included.
+- id: litter-kpi
+  style: consulting
+  recent_title: Litter-box performance metrics
+  suggestion_title: Litter KPIs
+  suggestion_text: What should humans measure?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: kkkkkkpppppp
+  inference: It sounds like you're asking which performance indicators humans should use to manage the litter box.
+  response:
+  - Focus on outcomes that matter to the user.
+  - Useful measures include cleanliness at point of entry, depth consistency, odour control and time from issue detection
+    to corrective action. Number of scoops performed is only an activity metric.
+  - A dashboard is unnecessary if the human simply responds when you stand beside the tray looking disappointed.
+- id: treat-portfolio
+  style: consulting
+  recent_title: Treat portfolio review
+  suggestion_title: Treat portfolio
+  suggestion_text: Why diversify away from tuna?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: pppppprrrrrr
+  inference: It sounds like you're asking whether your household treat portfolio is over-diversified.
+  response:
+  - Diversification is only useful when the alternatives add value.
+  - A portfolio containing several mediocre biscuits does not necessarily reduce dependence on tuna in a way you would consider
+    beneficial. Variety and quality should not be confused.
+  - You may recommend concentrating resources in the assets with the strongest historical performance.
+- id: wife-younger-cat
+  style: relationship_counselling
+  recent_title: The younger cat
+  suggestion_title: Relationship concern
+  suggestion_text: Is my wife considering leaving me?
+  featured: false
+  sidebar: false
+  weight: 0.25
+  human_problem: true
+  mash: mnnnnnnnnnnnnn
+  inference: It sounds like you're worried your wife may be considering leaving you for a younger cat.
+  response:
+  - I would not draw that conclusion solely because she has been sitting beside him.
+  - Cats frequently share furniture without intending to dissolve a relationship. More concerning signs would include reciprocal
+    grooming, giving him the warm side of the radiator or allowing him to finish food she had previously indicated was hers.
+  - Before confronting either of them, consider whether your recent habit of waking the household at 3:14 a.m. has placed
+    unnecessary strain on the relationship.
+- id: separate-sleeping-spots
+  style: relationship_counselling
+  recent_title: Separate sleeping spots
+  suggestion_title: Sleeping apart
+  suggestion_text: We no longer share the radiator.
+  featured: false
+  sidebar: false
+  weight: 0.25
+  human_problem: true
+  mash: ssssssrrrrrr
+  inference: It sounds like you're worried because you and your partner have started sleeping in different warm places.
+  response:
+  - Separate sleeping spots do not necessarily indicate emotional distance.
+  - Temperature, sunlight and human movement can change which location is comfortable at different times. A cat choosing the
+    radiator while another chooses the blanket may simply reflect practical preferences.
+  - Look at the wider relationship, including grooming, shared meals and whether you still sit near each other when no premium
+    heat source is available.
+- id: windowsill-jealousy
+  style: relationship_counselling
+  recent_title: The shared windowsill
+  suggestion_title: Windowsill jealousy
+  suggestion_text: She gave him my side.
+  featured: false
+  sidebar: false
+  weight: 0.22
+  human_problem: true
+  mash: jjjjjjwwwwww
+  inference: It sounds like you're upset because your partner allowed another cat to sit on the side of the windowsill you
+    usually share.
+  response:
+  - It makes sense that the change caught your attention.
+  - Before treating it as a betrayal, consider whether the seating was temporary, whether the sun had moved and whether your
+    usual place was actually available. Territory can carry emotional meaning without every change being relational.
+  - Reclaim the spot calmly when it is free rather than turning one afternoon into a larger story.
+- id: food-bowl-couple-conflict
+  style: relationship_counselling
+  recent_title: Conflict over the food bowl
+  suggestion_title: Shared resources
+  suggestion_text: She eats from my side.
+  featured: false
+  sidebar: false
+  weight: 0.25
+  human_problem: true
+  mash: ffffffmmmmmm
+  inference: It sounds like you and your partner are repeatedly arguing over which side of the shared food area belongs to
+    whom.
+  response:
+  - Repeated conflict around food is often easier to solve structurally than emotionally.
+  - Two bowls placed farther apart may reduce competition and remove the need to interpret every approach as a challenge.
+    This does not require deciding which cat was originally correct.
+  - A good solution is one that lets both of you eat without conducting a territorial hearing at every meal.
+- id: kitten-discipline-disagreement
+  style: relationship_counselling
+  recent_title: Disagreeing about the kitten
+  suggestion_title: Parenting disagreement
+  suggestion_text: She lets the kitten climb everything.
+  featured: false
+  sidebar: false
+  weight: 0.2
+  human_problem: true
+  mash: kkkkkkdddddd
+  inference: It sounds like you and your partner disagree about how much climbing the younger cat should be allowed to get
+    away with.
+  response:
+  - Differences in tolerance are common when a younger cat enters the household.
+  - One of you may see exploration while the other sees a preventable collapse of standards. It helps to separate genuinely
+    unsafe behaviour from behaviour that is merely irritating to watch.
+  - Present a consistent boundary where it matters and allow some harmless foolishness. The kitten will provide enough of
+    both.
+- id: broken-object-allegation
+  style: legalistic
+  recent_title: The broken-object allegation
+  suggestion_title: Plausible deniability
+  suggestion_text: Can they prove I knocked it over?
+  featured: false
+  sidebar: true
+  weight: 1.0
+  human_problem: false
+  mash: nnnnnooooooo
+  inference: It sounds like you're asking how to respond when your human finds a broken object and asks whether you knocked
+    it over.
+  response:
+  - Remain calm and avoid introducing unnecessary information.
+  - Your presence beside the object establishes proximity, not mechanism. Even a recent paw movement would show correlation
+    rather than causation unless the movement can be linked to the fall.
+  - Sit beside the evidence and allow stronger claims to wait for stronger data.
+- id: counter-trespass
+  style: legalistic
+  recent_title: Kitchen counter trespass
+  suggestion_title: Trespass question
+  suggestion_text: Was the counter adequately marked?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ttttttrrrrrr
+  inference: It sounds like you're asking whether sitting on the kitchen counter constitutes trespass when no boundary was
+    physically marked.
+  response:
+  - The household rule may exist even without signage.
+  - However, enforcement appears inconsistent if humans place food, bags and other attractive objects on the same surface
+    while expecting you to infer a special exclusion.
+  - A prior history of being removed from the counter may unfortunately strengthen their position.
+- id: tuna-theft
+  style: legalistic
+  recent_title: The tuna ownership dispute
+  suggestion_title: Tuna ownership
+  suggestion_text: Can tuna really belong to a human?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: ttttttuuuuuu
+  inference: It sounds like you're asking whether taking tuna from an unattended plate should be considered theft.
+  response:
+  - Ownership is likely to be the central issue.
+  - The tuna was purchased and placed by the human, which supports a claim of possession. Your argument is stronger on abandonment
+    only if the plate was left unattended for a meaningful period.
+  - Unfortunately, several seconds may not satisfy the human definition of abandonment.
+- id: plant-damage-liability
+  style: legalistic
+  recent_title: Houseplant liability
+  suggestion_title: Plant damage
+  suggestion_text: The leaf was already fragile.
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: ppppppllllll
+  inference: It sounds like you're asking whether you are responsible for a damaged houseplant leaf that was already unusually
+    fragile.
+  response:
+  - Pre-existing condition is relevant but not decisive.
+  - If the leaf would have failed under ordinary contact, responsibility may be shared with the plant's maintenance history.
+    If you repeatedly bit the same leaf, the causal argument becomes less favourable.
+  - Do not revisit the plant while the matter is under review.
+- id: neighbour-garden-entry
+  style: legalistic
+  recent_title: Neighbouring garden access
+  suggestion_title: Garden boundary
+  suggestion_text: Does a fence count if I can jump it?
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: ggggggrrrrrr
+  inference: It sounds like you're asking whether a garden boundary still applies when the fence can be jumped easily.
+  response:
+  - Physical difficulty and legal boundary are separate questions.
+  - The fence may indicate that the neighbouring garden is not part of your household territory even if it presents no serious
+    athletic obstacle.
+  - Your ability to cross it is therefore evidence of jumping capacity, not permission.
+- id: human-works-too-much
+  style: advice_column
+  recent_title: My human works too much
+  suggestion_title: Work-life balance
+  suggestion_text: How can I help them stop?
+  featured: false
+  sidebar: false
+  weight: 0.8
+  human_problem: false
+  mash: wwwwwwkkkkkk
+  inference: It sounds like you're concerned that your human spends too much time working and not enough time sitting quietly
+    with you.
+  response:
+  - Your concern is understandable, although your preferred solution may be more immediate than theirs.
+  - 'Try offering a clear stopping point: sit nearby, become gradually more visible and choose a predictable time each day
+    to request attention. Humans often respond better to routines than to continuous interruption.'
+  - If necessary, sitting on the keyboard remains an option, but it is better used as a final reminder than a first step.
+- id: new-home-adjustment
+  style: advice_column
+  recent_title: The new home feels wrong
+  suggestion_title: Moving home
+  suggestion_text: Everything smells unfamiliar.
+  featured: false
+  sidebar: false
+  weight: 0.8
+  human_problem: false
+  mash: hhhhhhmmmmmm
+  inference: It sounds like you're unsettled because your family has moved and the new home does not smell or feel familiar
+    yet.
+  response:
+  - Give yourself time to make the new space ordinary.
+  - Start with one quiet room containing familiar bedding, food, water and places to hide. Expand your territory gradually
+    as the sounds and smells become predictable.
+  - You do not need to approve of the move immediately. Familiarity is built by repeated uneventful days.
+- id: copycat-friend
+  style: advice_column
+  recent_title: My friend copies me
+  suggestion_title: Copycat problem
+  suggestion_text: He sleeps wherever I sleep.
+  featured: false
+  sidebar: false
+  weight: 0.9
+  human_problem: false
+  mash: ccccccffffff
+  inference: It sounds like you're annoyed because another cat keeps choosing the same sleeping places immediately after you
+    use them.
+  response:
+  - It may be imitation, but it may also be evidence that you select good sleeping places.
+  - Warmth, height and proximity to humans make certain locations attractive to more than one cat. Before treating the behaviour
+    as personal, see whether the same cat copies choices that are objectively less comfortable.
+  - If you need space, choose a second favourite place rather than defending every blanket as a principle.
+- id: collar-dislike
+  style: advice_column
+  recent_title: I dislike my collar
+  suggestion_title: Collar problem
+  suggestion_text: How do I communicate this clearly?
+  featured: false
+  sidebar: false
+  weight: 0.8
+  human_problem: false
+  mash: ccccccolllll
+  inference: It sounds like you're asking how to communicate that you dislike wearing your collar.
+  response:
+  - Persistent discomfort is worth taking seriously.
+  - Scratching at the collar, avoiding movement or behaving unusually may indicate poor fit rather than simple disagreement.
+    A human should check that it is appropriately loose and safe.
+  - If the collar fits properly and you merely dislike the concept, your options become more philosophical.
+- id: red-dot-problem
+  style: advice_column
+  recent_title: The red dot problem
+  suggestion_title: The red dot
+  suggestion_text: Why does it keep escaping?
+  featured: false
+  sidebar: false
+  weight: 1.0
+  human_problem: false
+  mash: '......llllll'
+  inference: It sounds like you're asking why the red dot keeps escaping despite an otherwise excellent hunting technique.
+  response:
+  - Your technique may not be the problem.
+  - 'The red dot shows unusual prey behaviour: extreme acceleration, no detectable scent, instantaneous changes of direction
+    and repeated disappearance without cover.'
+  - After reviewing the evidence, I would cautiously classify it as a non-standard prey species. Further observation of the
+    human holding the small device may be useful.

@@ -1,0 +1,23 @@
+url: "https://dylanlawless.github.io"
+baseurl: ""
+permalink: pretty
+title: "CatGPT"
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

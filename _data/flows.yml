@@ -1,0 +1,349 @@
+# CatGPT conversation flows
+#
+# Each topic in topics.yml selects one flow through its `style` field.
+# A conversation uses:
+#   turn 1: the topic's own inference and response
+#   turns 2-4: zero to three style-specific continuation turns
+#   final turn: the style-specific closing turn
+#
+# The JavaScript chooses a total conversation length of 3-5 CatGPT replies.
+# This keeps a premise coherent long enough to feel conversational without
+# turning the static site into a branching dialogue engine.
+#
+solemn_absurdity:
+  continuations:
+  - inference: It sounds like you're saying your owner has rejected this position without offering a better one.
+    response:
+    - That is disappointing, but it does simplify the disagreement.
+    - You have stated what you want. Your owner has stated that you cannot have it. Remain nearby and allow the matter to
+      become part of the room.
+  - inference: It sounds like you're asking whether waiting silently could improve your negotiating position.
+    response:
+    - It can, provided the silence is visible.
+    - Waiting in another room may be mistaken for acceptance. Waiting directly beside the disputed object, person or doorway
+      keeps the issue available without introducing unnecessary noise.
+  - inference: It sounds like you're wondering whether a small escalation would still count as reasonable.
+    response:
+    - A small escalation can be reasonable if it remains proportionate.
+    - Move closer. Sit where the problem is easiest to notice. If necessary, add one short sound. You want the disagreement
+      to remain very specific.
+  closing:
+    inference: It sounds like you're asking when this matter can be considered settled.
+    response:
+    - When you get what you wanted, or when something better becomes available.
+    - There is little value in declaring a philosophical victory while the practical arrangement remains unchanged. For now,
+      keep the original position.
+elegant_domestic_overstatement:
+  continuations:
+  - inference: It sounds like you're saying the household has acknowledged the problem but declined to correct it.
+    response:
+    - Then the difficulty has moved from misunderstanding to policy.
+    - A regrettable arrangement can survive for some time once everyone agrees that it is regrettable. Maintain your dignity
+      and continue to make the inconvenience visible.
+  - inference: It sounds like you're asking whether a formal protest is now appropriate.
+    response:
+    - A formal protest need not be loud.
+    - Choose a conspicuous position, face the responsible party and withdraw ordinary cooperation for a short period. One
+      should not squander outrage on a matter that may yet be corrected before dinner.
+  - inference: It sounds like you're concerned that the other party has mistaken your restraint for agreement.
+    response:
+    - That risk exists.
+    - Good manners are occasionally misread by people who benefit from the misunderstanding. Return calmly and appear surprised
+      that the matter still requires attention.
+  closing:
+    inference: It sounds like you're asking how to end the dispute without lowering the tone of the household.
+    response:
+    - Accept the first satisfactory settlement and behave as though it was inevitable.
+    - Quiet possession of the restored privilege is sufficient. The household may then return to civilisation.
+bureaucratic_absurdity:
+  continuations:
+  - inference: It sounds like you're saying the responsible human has denied the request on procedural grounds.
+    response:
+    - That suggests the request has reached the wrong level of authority.
+    - First determine whether the human is disputing the need, the timing or merely your preferred method of resolution. A
+      process becomes easier to challenge once its reason for saying no is identified.
+  - inference: It sounds like you're asking whether a second application would be treated as a duplicate.
+    response:
+    - Only if the household has a functioning record system.
+    - In many homes, requests are tracked informally and become surprisingly difficult to reconstruct after somebody leaves
+      the room. A fresh appearance may therefore constitute a new service event.
+  - inference: It sounds like you're asking how to escalate an unresolved household service request.
+    response:
+    - Escalate through visibility before volume.
+    - Move to the exact point of failure. Sit by the bowl, door, work surface or other relevant infrastructure until the broad
+      complaint becomes an operational incident.
+  closing:
+    inference: It sounds like you're asking what counts as successful resolution.
+    response:
+    - Resolution occurs when the service is restored, not when the human explains why it was unavailable.
+    - An apology, policy statement or promise to review the matter later does not fill a bowl or open a door.
+literal_deadpan:
+  continuations:
+  - inference: It sounds like you're saying the human has introduced a distinction that is not visible in the physical situation.
+    response:
+    - That may be the entire disagreement.
+    - Humans often use categories that depend on purpose, ownership or convention rather than shape, distance or quantity.
+      You are noticing the rule, not failing to understand it.
+  - inference: It sounds like you're asking whether the words should therefore be taken more literally.
+    response:
+    - That would at least make the system easier to test.
+    - If a thing is described as empty, check whether it contains anything. If a place is described as full, check whether
+      you fit. The results may not improve human satisfaction.
+  - inference: It sounds like you're asking why humans keep the rule after the wording has failed.
+    response:
+    - Because the rule was probably never dependent on the wording.
+    - The preference came first. The words are an explanation added afterward. This is why correcting the sentence rarely
+      changes the outcome.
+  closing:
+    inference: It sounds like you're asking what conclusion is left.
+    response:
+    - The human rule can be real even when its description is imprecise.
+    - Your objection can also be real even when it changes nothing. Both facts may remain true at the same time.
+sideways_logic:
+  continuations:
+  - inference: It sounds like you're saying the alternative offered by your human is technically similar but obviously worse.
+    response:
+    - That is an important distinction.
+    - Humans often compare official purposes. Cats notice warmth, height, ownership and whether somebody else was using the
+      object. Those unofficial properties may be the whole point.
+  - inference: It sounds like you're asking whether choosing the supposedly wrong option is still rational.
+    response:
+    - It can be rational under your actual preferences.
+    - Intended use is only one variable. The human may simply have optimised for a different objective.
+  - inference: It sounds like you're asking whether explaining your preferences would help.
+    response:
+    - Possibly, although the available communication channel is limited.
+    - You can demonstrate preference by repeatedly selecting the same disapproved option. Humans usually understand this.
+      They may simply disagree with the conclusion.
+  closing:
+    inference: It sounds like you're asking whether you should compromise.
+    response:
+    - Only if the compromise contains something you actually want.
+    - Choosing the approved option solely because it was purchased for you may satisfy the human, but that is a different
+      objective.
+innocent_philosophy:
+  continuations:
+  - inference: It sounds like you're asking whether the answer changes if nobody can explain why the arrangement exists.
+    response:
+    - Not knowing why something exists does not make it meaningless.
+    - Many household rules began before you arrived and continue because everyone remembers the rule more clearly than the
+      reason. You can still inspect the result and decide whether it deserves your cooperation.
+  - inference: It sounds like you're wondering whether your interpretation could be true even if the human says it is not.
+    response:
+    - For some questions, yes.
+    - A sunbeam can be both light and a place to sleep. A box can be packaging and a room. Human intent does not always exhaust
+      what a thing can become.
+  - inference: It sounds like you're asking whether thinking about this any longer will produce a practical answer.
+    response:
+    - Probably not.
+    - Some questions become clearer when examined. Others simply become more interesting. If the question has a warm surface
+      nearby, it may be best considered while lying down.
+  closing:
+    inference: It sounds like you're asking what to do with an answer that remains uncertain.
+    response:
+    - Keep the uncertainty if it is harmless.
+    - You do not need a final theory of boxes, mirrors, ownership or time in order to use them well.
+polite_social_menace:
+  continuations:
+  - inference: It sounds like you're saying the other party has declined the opportunity to correct the arrangement voluntarily.
+    response:
+    - That is unfortunate.
+    - You have already allowed the situation to resolve itself gracefully. Continued inaction may now be interpreted as confidence
+      that you will tolerate it.
+  - inference: It sounds like you're asking whether a more conspicuous intervention would be impolite.
+    response:
+    - Not necessarily.
+    - Politeness does not require invisibility. You may place yourself exactly where the inconvenience becomes mutual, provided
+      you remain composed.
+  - inference: It sounds like you're concerned that somebody may describe your response as deliberate.
+    response:
+    - Deliberate behaviour is not automatically unreasonable.
+    - You inspected the situation, found it unsatisfactory and selected a response. Avoid adding theatrical flourishes that
+      would make the less charitable interpretation easier.
+  closing:
+    inference: It sounds like you're asking how to behave once the other party gives way.
+    response:
+    - With complete normality.
+    - Take the newly available place, object or privilege without celebration. The absence of triumph is what makes the settlement
+      final.
+domestic_anxiety:
+  continuations:
+  - inference: It sounds like you're worried that one small change means something larger about the relationship.
+    response:
+    - One change is usually weak evidence.
+    - Humans move rooms, alter routines, look at screens and close doors for many reasons that have little to do with you.
+      A pattern matters more than a single event.
+  - inference: It sounds like you're asking what signs would actually justify concern.
+    response:
+    - Look for changes that persist across several parts of the relationship.
+    - Less contact, different feeding routines, repeated exclusion from familiar places or sustained tension would matter
+      more than one closed door or distracted evening.
+  - inference: It sounds like you're asking whether seeking reassurance directly would make things worse.
+    response:
+    - A small amount of reassurance-seeking is reasonable.
+    - 'Choose a familiar low-pressure behaviour: sit nearby, slow blink, or settle in a usual shared place. Avoid making every
+      ordinary movement carry a verdict on the relationship.'
+  closing:
+    inference: It sounds like you're asking what to do if nothing appears to be seriously wrong.
+    response:
+    - Then let ordinary life resume.
+    - Relationships are mostly made of repeated uneventful contact, shared spaces and predictable routines. Find somewhere
+      comfortable and allow the evidence to accumulate quietly.
+practical_philosophy:
+  continuations:
+  - inference: It sounds like you're asking whether the original purpose of something should control how it is used now.
+    response:
+    - Not always.
+    - Objects acquire functions through repeated use. A windowsill becomes a bed, a box becomes a room and a human lap becomes
+      furniture whether or not any of these uses appeared in the original design.
+  - inference: It sounds like you're asking how to decide between the rule and what actually works.
+    response:
+    - Start with consequences.
+    - If the alternative is safe, comfortable and causes little disruption, the practical argument is strong. If it breaks
+      something, blocks somebody or creates risk, the rule may contain information worth respecting.
+  - inference: It sounds like you're asking whether habit itself can become a kind of right.
+    response:
+    - Habit creates expectations, even when it does not create formal ownership.
+    - A chair used every afternoon, a particular patch of sun or a regular place on the bed becomes part of the household
+      pattern.
+  closing:
+    inference: It sounds like you're asking for the practical rule to keep.
+    response:
+    - Use what works, notice what it costs and revise when the conditions change.
+    - That is usually enough philosophy for one household. The rest can be reconsidered after a nap.
+commonsense_scepticism:
+  continuations:
+  - inference: It sounds like you're saying the human explanation still does not match the obvious facts.
+    response:
+    - Then the explanation may be incomplete.
+    - A rule can have a good reason without that reason being the one first offered. Ask what practical problem the rule is
+      solving, even if your method of asking is mostly staring.
+  - inference: It sounds like you're asking whether inconsistency makes the whole rule invalid.
+    response:
+    - Not automatically.
+    - Humans can apply a reasonable rule inconsistently. That weakens their argument about fairness, but it does not prove
+      the underlying concern is imaginary.
+  - inference: It sounds like you're asking whether testing the rule yourself would settle the matter.
+    response:
+    - It may settle one factual question and create several new household questions.
+    - A successful jump proves that the counter is reachable. It does not prove that the human wanted you there.
+  closing:
+    inference: It sounds like you're asking what position remains reasonable.
+    response:
+    - Keep the objection that still survives the facts.
+    - You do not need to accept a poor explanation, and you do not need to reject a sensible boundary merely because the explanation
+      was poor.
+scientific:
+  continuations:
+  - inference: It sounds like you're asking whether one observation is enough to support the conclusion.
+    response:
+    - Usually not.
+    - A single observation establishes that the event can occur under at least one set of conditions. Repetition helps distinguish
+      a stable effect from an accident, a coincidence or a particularly cooperative glass.
+  - inference: It sounds like you're asking whether the human's objection should count as peer review.
+    response:
+    - It counts as feedback from an interested observer.
+    - The human may identify practical limitations, especially damage, noise or selection bias. Strong emotional language
+      does not by itself invalidate the measurement.
+  - inference: It sounds like you're asking whether the protocol should change after the human intervened.
+    response:
+    - Yes, if the intervention changes the conditions of the experiment.
+    - Moving objects, closing a door or removing you from the table creates a new environment. Results from before and after
+      that change should not be treated as directly equivalent.
+  closing:
+    inference: It sounds like you're asking whether the study can now be considered complete.
+    response:
+    - Probably.
+    - You have a hypothesis, observations, replication attempts and an external reviewer who has become increasingly involved
+      in the protocol. Further data may reduce access to the laboratory.
+consulting:
+  continuations:
+  - inference: It sounds like you're saying the human stakeholder agrees there is a problem but rejects your proposed solution.
+    response:
+    - That is useful progress.
+    - 'Agreement on the problem separates the objective from the implementation. Identify which constraint the human is protecting:
+      cost, cleanliness, convenience, control or simply the existing process.'
+  - inference: It sounds like you're asking whether a small pilot would help.
+    response:
+    - A pilot is appropriate when the disagreement is about consequences rather than principle.
+    - Choose one low-risk instance, keep the scope narrow and observe whether the feared problem actually occurs. Avoid calling
+      it a pilot in front of the human.
+  - inference: It sounds like you're asking what metric should determine success.
+    response:
+    - Use a measure tied to the original objective.
+    - If the goal is attention, measure response time. If the goal is food access, measure time to food. If the goal is comfort,
+      measure whether you keep using the location after the novelty has passed.
+  closing:
+    inference: It sounds like you're asking whether the transformation is now complete.
+    response:
+    - Only if the new arrangement survives ordinary use.
+    - A one-time concession is an event. A repeated change in behaviour is an operating model.
+relationship_counselling:
+  continuations:
+  - inference: It sounds like you're saying the issue still bothers you even though there may be an innocent explanation.
+    response:
+    - That is possible.
+    - An explanation can be reasonable without immediately removing the feeling. Give yourself time to distinguish jealousy,
+      territory, disrupted routine and genuine loss of closeness.
+  - inference: It sounds like you're asking whether you should confront the other cat directly.
+    response:
+    - I would avoid turning uncertainty into a confrontation.
+    - 'Watch how the relationship behaves across ordinary moments: shared space, grooming, food, sleep and whether either
+      cat seeks the other out when nothing valuable is at stake.'
+  - inference: It sounds like you're asking what you can change on your side of the relationship.
+    response:
+    - Focus on behaviours that make shared life easier without becoming performative.
+    - Respect resting space, avoid unnecessary competition around food and return to familiar friendly routines. You do not
+      need to become a different cat to show that the relationship matters.
+  closing:
+    inference: It sounds like you're asking when to stop analysing the relationship.
+    response:
+    - When the evidence returns to ordinary life.
+    - If you are still sharing space, choosing proximity and behaving normally around each other, the relationship is probably
+      doing more work than your worry is giving it credit for.
+legalistic:
+  continuations:
+  - inference: It sounds like you're saying the human considers the matter already proven.
+    response:
+    - Confidence is not the same as evidence.
+    - Presence, opportunity and a known interest in the object may be relevant, but they are not identical to direct observation.
+      Unfortunately, a human who watched you do it has a considerably stronger case.
+  - inference: It sounds like you're asking whether the household rule itself can be challenged.
+    response:
+    - It can be questioned, although that does not suspend it.
+    - A useful challenge asks whether the boundary was clear, consistently applied and reasonably connected to the behaviour
+      being restricted.
+  - inference: It sounds like you're asking whether previous incidents can be used against you.
+    response:
+    - They may influence the human's judgement, even if they do not prove the present case.
+    - A history of similar conduct makes an accusation more plausible. It does not transform every future broken object into
+      your responsibility automatically.
+  closing:
+    inference: It sounds like you're asking for your final position.
+    response:
+    - Keep it narrow.
+    - Accept facts that are actually established, dispute claims that go beyond them and avoid making statements about unrelated
+      incidents.
+advice_column:
+  continuations:
+  - inference: It sounds like you're saying the first suggestion did not change the situation.
+    response:
+    - Then try a smaller, more observable change.
+    - Household problems often improve through routine rather than one decisive intervention. Pick one behaviour you can repeat
+      consistently and give the other party time to respond.
+  - inference: It sounds like you're asking whether the problem is serious enough to keep worrying about.
+    response:
+    - Look at function rather than irritation alone.
+    - If everyone is eating, resting, moving normally and still choosing ordinary contact, the situation may be annoying without
+      being serious.
+  - inference: It sounds like you're asking what to do if the other party simply will not change.
+    response:
+    - Then work with the part you can control.
+    - Choose another resting place, adjust the routine, create distance around a contested resource or seek attention at a
+      better moment. Adaptation is not the same as admitting the other party was right.
+  closing:
+    inference: It sounds like you're asking for the simplest next step.
+    response:
+    - Return to the ordinary routine and watch what actually happens.
+    - Most household questions become easier once they are no longer being treated as emergencies. If the problem remains
+      tomorrow, reconsider it after breakfast.
