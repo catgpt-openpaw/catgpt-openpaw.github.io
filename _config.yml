@@ -1,5 +1,6 @@
 url: "https://catgpt-openpaw.github.io"
 baseurl: ""
+repository: "catgpt-openpaw/catgpt-openpaw.github.io"
 permalink: pretty
 title: "CatGPT"
 
